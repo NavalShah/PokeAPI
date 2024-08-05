@@ -1,13 +1,3 @@
-// fetch('https://pokeapi.co/api/v2/pokemon/pikachu')
-//     .then(response => {
-//         if(!response.ok){
-//             throw new Error("COULD NOT FETCH RESOURCE")
-//         }
-//         return response.json();
-//     })
-//     .then(data => console.log(data.weight))
-//     .catch(error => console.log(error));
-
 fetchData();
 
 async function fetchData() {
@@ -27,7 +17,7 @@ async function fetchData() {
 
         imgElement.src = pokemonSprite
         imgElement.style.display = "block";
-        
+
 
     }
     catch(error){
